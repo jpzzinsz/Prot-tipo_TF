@@ -91,12 +91,12 @@ void removerLivro(struct Livro lista[], int *quantidadeLivros) {
 void emprestarLivro(struct Livro lista[], int quantidadeLivros) {
 
     struct Livro LivrosDisponiveis[10] = {
-        {"Livro1", 5},
-        {"Livro2", 8},
-        {"Livro3", 3},
-        {"Livro4", 2},
-        {"Livro5", 7},
-        {"Livro6", 4},
+        {"Bíbia Sagrada", 5},
+        {"Dom quixote", 8},
+        {"O livro vermelho", 3},
+        {"O Alcorão", 2},
+        {"Harry Potter", 7},
+        {"O Senhor dos Anéis", 4},
         {"Livro7", 6},
         {"Livro8", 1},
         {"Livro9", 9},
