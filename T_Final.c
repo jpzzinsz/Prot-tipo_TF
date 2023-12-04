@@ -91,16 +91,16 @@ void removerLivro(struct Livro lista[], int *quantidadeLivros) {
 void emprestarLivro(struct Livro lista[], int quantidadeLivros) {
 
     struct Livro LivrosDisponiveis[10] = {
-        {"Livro1", 5},
-        {"Livro2", 8},
-        {"Livro3", 3},
-        {"Livro4", 2},
-        {"Livro5", 7},
-        {"Livro6", 4},
-        {"Livro7", 6},
-        {"Livro8", 1},
-        {"Livro9", 9},
-        {"Livro10", 10}
+        {"Bíblia Sagrada", 5},
+        {"Dom Quixote", 8},
+        {"O Livro Vermelho", 3},
+        {"O Alcorão", 2},
+        {"Harry Potter", 7},
+        {"O Senhor dos Anéis", 4},
+        {"Citações do Presidente Mao Tsé-Tung", 6},
+        {"Um Conto de Duas Cidades", 1},
+        {"O Pequeno Príncipe", 9},
+        {"Ela, a Feiticeira", 10}
 };
 
    printf("Lista de Livros disponiveis para emprestimo:\n");
